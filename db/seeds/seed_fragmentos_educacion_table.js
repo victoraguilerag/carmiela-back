@@ -2,7 +2,7 @@ const casual = require('casual')
 
 exports.seed = (knex, Promise) => {
   return knex('fragmento-educacion').del().then(() => {
-    const promises = Array(10).fill().map((_, i) => {
+    const promises = Array(3).fill().map((_, i) => {
       return knex('fragmento-educacion').insert([{
         id: i + 1,
         entidad: casual.name,

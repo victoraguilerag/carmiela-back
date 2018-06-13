@@ -1,11 +1,11 @@
-seed_experiencia_table.jsconst casual = require('casual')
+const casual = require('casual')
 
 exports.seed = (knex, Promise) => {
   return knex('experiencia').del().then(() => {
   	const promises = () => {
   	  return knex('experiencia').insert([{
 	    id: 1,
-	  }])	
+	  }])
   	}
   })
 

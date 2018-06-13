@@ -4,7 +4,7 @@ exports.up = (knex, Promise) => (
       table.increments('id').primary().unsigned()
       table.string('skill')
       table.string('descripcion')
-      table.integer('skill_id').unsigned()
+      table.integer('skills_id').unsigned()
     })
   ])
 )

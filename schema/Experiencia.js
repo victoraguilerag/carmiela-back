@@ -11,10 +11,10 @@ var experiencia = `
   }
   type Empresa {
   	nombre: String,
-  	link: [FragmentoURL],
   	periodo: String,
+    descripcion: String,
   	social: FragmentoURL,
-  	descripcion: String,
+    link: [FragmentoURL],
   	posiciones: [Posicion]
   }
 

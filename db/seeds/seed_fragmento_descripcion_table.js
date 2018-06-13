@@ -6,7 +6,7 @@ exports.seed = (knex, Promise) => {
       return knex('fragmento-descripcion').insert([{
         id: i + 1,
         tipo: 'texto',
-        descripcion: casual.description,
+        fragmento: casual.description,
         posicion_id: i + 1,
       }])
     })

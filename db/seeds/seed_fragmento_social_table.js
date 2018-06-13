@@ -1,13 +1,13 @@
 const casual = require('casual')
 
 exports.seed = (knex, Promise) => {
-  return knex('fragmento-posicion').del().then(() => {
+  return knex('fragmento-social').del().then(() => {
     const promises = Array(3).fill().map((_, i) => {
-      return knex('fragmento-posicion').insert([{
+      return knex('fragmento-social').insert([{
         id: i + 1,
-        tipo: 'texto',
-        fragmento: casual.sentence,
-        posicion_id: i + 1,
+        nombre: casual.name,
+        url: "http://www.instagram.com",
+        empresa_id: i + 1,
       }])
     })
 

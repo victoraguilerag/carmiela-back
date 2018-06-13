@@ -16,6 +16,30 @@ class Empresa extends Model {
 					to: 'experiencia.id'
 				}
 			},
+			social: {
+				relation: Model.BelongsToOneRelation,
+				modelClass: path.join(__dirname, '/Social'),
+				join: {
+					from: 'empresa.id',
+					to: 'fragmento-social.empresa_id'
+				}
+			},
+			link: {
+				relation: Model.HasManyRelation,
+				modelClass: path.join(__dirname, '/Link'),
+				join: {
+					from: 'empresa.id',
+					to: 'fragmento-link.empresa_id'
+				}
+			},
+			posiciones: {
+				relation: Model.HasManyRelation,
+				modelClass: path.join(__dirname, '/Posiciones'),
+				join: {
+					from: 'empresa.id',
+					to: 'posicion.empresa_id'
+				}
+			}
 		}
 	}
 }
