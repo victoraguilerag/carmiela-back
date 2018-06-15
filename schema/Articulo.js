@@ -1,5 +1,5 @@
 var Articulo = `
-  type Articulo { 
+  type Articulo {
   	id: Int,
   	portada: String,
   	titulo: String,
