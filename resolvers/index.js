@@ -1,9 +1,13 @@
 var api = require('./api')
-
+require('../db/setup')
+var Articulos = require('../models/Articulos')
+var Experiencia = require('../models/Experiencia')
+var Fragmento = require('../models/Fragmento')
 var resolvers = {
 	Query: {
-		articulos: () => api.articulos,
-		experiencia: () => api.experiencia,
+		articulos: () => Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]'),
+		experiencia: () => Experiencia.query().eager('[educacion, profesional, profesional.[social,link,posiciones], profesional.[posiciones.[resumen,descripcion]], skills.[principales, secundarios]]'),
+		fragmentos: () => Fragmento.query()
 	}
 }
 

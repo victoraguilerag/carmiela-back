@@ -8,7 +8,7 @@ class Posiciones extends Model {
 
 	static get relationMappings () {
 		return {
-			empresa: {
+			posiciones: {
 				relation: Model.BelongsToOneRelation,
 				modelClass: path.join(__dirname, '/Empresa'),
 				join: {
@@ -26,9 +26,9 @@ class Posiciones extends Model {
 			},
 			descripcion: {
 				relation: Model.HasManyRelation,
-				modelClass: path.join(__dirname, 'Descripcion'),
+				modelClass: path.join(__dirname, '/Descripcion'),
 				join: {
-					from: 'posicion_id',
+					from: 'posicion.id',
 					to: 'fragmento-descripcion.posicion_id'
 				}
 			}

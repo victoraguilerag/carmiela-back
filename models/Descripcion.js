@@ -8,12 +8,12 @@ class Descripcion extends Model {
 
 	static get relationMappings () {
 		return {
-			resumen: {
+			descripcion: {
 				relation: Model.BelongsToOneRelation,
 				modelClass: path.join(__dirname, '/Posiciones'),
 				join: {
-					from: 'fragmento-descripcion.posicion_id'
-          to: 'posicion.id',
+					from: 'fragmento-descripcion.posicion_id',
+          			to: 'posicion.id',
 				}
 			}
 		}

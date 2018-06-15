@@ -6,8 +6,9 @@ var resolvers = require('../resolvers')
 var rootTypes = `
   type Query { 
   	articulos: [Articulo],
-  	experiencia: Experiencia
-  	skill: Skill
+  	experiencia: [Experiencia],
+  	fragmentos: [Fragmento]
+
   }
 `
 

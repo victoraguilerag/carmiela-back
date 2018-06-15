@@ -8,8 +8,14 @@ var Articulo = `
   	cuerpo: [FragmentoArticulo]
   }
   type FragmentoArticulo {
+    id: Int,
   	tipo: String,
-  	fragmento: [String]
+  	fragmento: [Fragmento]
+  }
+  type Fragmento{
+    id: Int,
+    valor: String,
+    fragmento_id: Int
   }
 `
 

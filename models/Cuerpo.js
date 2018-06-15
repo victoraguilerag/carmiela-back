@@ -8,12 +8,20 @@ class Cuerpo extends Model {
 
 	static get relationMappings () {
 		return {
-			articulo: {
+			cuerpo: {
 				relation: Model.BelongsToOneRelation,
 				modelClass: path.join(__dirname, '/Articulos'),
 				join: {
 					from: 'fragmento-articulo.cuerpo_id',
 					to: 'articulos.id'
+				}
+			},
+			fragmento: {
+				relation: Model.HasManyRelation,
+				modelClass: path.join(__dirname, '/Fragmento'),
+				join: {
+					from: 'fragmento-articulo.id',
+					to: 'fragmento.fragmento_id'
 				}
 			}
 		}

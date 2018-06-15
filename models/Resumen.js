@@ -12,8 +12,8 @@ class Resumen extends Model {
 				relation: Model.BelongsToOneRelation,
 				modelClass: path.join(__dirname, '/Posiciones'),
 				join: {
-					from: 'fragmento-posicion.posicion_id'
-          to: 'posicion.id',
+					from: 'fragmento-posicion.posicion_id',
+          			to: 'posicion.id',
 				}
 			}
 		}

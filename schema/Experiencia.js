@@ -1,5 +1,6 @@
 var experiencia = `
   type Experiencia {
+    id: Int,
   	educacion: [FragmentoEducacion],
   	profesional: [Empresa],
   	skills: Skill

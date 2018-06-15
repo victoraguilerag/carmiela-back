@@ -25,10 +25,10 @@ class Experiencia extends Model {
 				}
 			},
 			skills: {
-				relation: Modal.BelongsToOneRelation,
+				relation: Model.BelongsToOneRelation,
 				modelClass: path.join(__dirname, '/Skill'),
 				join: {
-					from: 'experiencia_id',
+					from: 'experiencia.id',
 					to: 'skill.experiencia_id'
 				}
 			}

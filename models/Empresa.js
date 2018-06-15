@@ -1,4 +1,4 @@
-Empresa.jsconst { Model } = require('objection')
+const { Model } = require('objection')
 const path = require('path')
 
 class Empresa extends Model {
