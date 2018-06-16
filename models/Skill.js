@@ -8,7 +8,7 @@ class Skill extends Model {
 
 	static get relationMappings () {
 		return {
-			experiencia: {
+			skills: {
 				relation: Model.BelongsToOneRelation,
 				modelClass: path.join(__dirname, '/Experiencia'),
 				join: {

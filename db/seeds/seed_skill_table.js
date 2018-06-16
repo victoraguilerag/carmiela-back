@@ -1,10 +1,21 @@
 const casual = require('casual')
 
 exports.seed = (knex, Promise) => {
+  // return knex('skill').del().then(() => {
+  //   const promises = Array(3).fill().map((_, i) => {
+  //     return knex('skill').insert([{
+  //       id: i + 1,
+  //       experiencia_id: 1,
+  //     }])
+  //   })
+
+  //   return Promise.all(promises)
+  // })
+
   return knex('skill').del().then(() => {
-    const promises = Array(3).fill().map((_, i) => {
+    const promises = Array(1).fill().map((_, i) => {
       return knex('skill').insert([{
-        id: i + 1,
+        id: 1,
         experiencia_id: 1,
       }])
     })

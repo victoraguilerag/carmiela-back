@@ -11,6 +11,7 @@ var experiencia = `
   	periodo: String
   }
   type Empresa {
+    id: Int,
   	nombre: String,
   	periodo: String,
     descripcion: String,
