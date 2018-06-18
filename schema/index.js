@@ -4,11 +4,11 @@ var Experiencia = require('./Experiencia')
 var resolvers = require('../resolvers')
 
 var rootTypes = `
-  type Query { 
-  	articulos: [Articulo],
-  	experiencia: [Experiencia],
+  type Query {
+  	articulos: [Articulo]
+    articulo(id: Int): Articulo
+  	experiencia: [Experiencia]
   	fragmentos: [Fragmento]
-
   }
 `
 

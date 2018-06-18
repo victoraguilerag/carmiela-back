@@ -7,6 +7,7 @@ var Fragmento = require('../models/Fragmento')
 var resolvers = {
 	Query: {
 		articulos: () => Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]'),
+		articulo: (rootValue, args) => Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]').findById(args.id),
 		experiencia: () => Experiencia.query().eager('[educacion, profesional, profesional.[link, social, posiciones], profesional.posiciones.resumen, skills.[principales, secundarios]]'),
 		fragmentos: () => Fragmento.query()
 	}

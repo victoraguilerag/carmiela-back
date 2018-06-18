@@ -647,13 +647,13 @@ var api = {
             fragmento:['brazil-5'],
           },
           {
-            tipo: '',
+            tipo: 'texto',
             fragmento: [
               `Puedes empezar con unos “Bolinhos de bacalhau”, que son unos buñuelos de bacalao fresco, condimentados y fritos a la perfección. Tienes que pisarlos con el tenedor hasta romperlos, rociarles un poco de aceite de oliva y limón. Una entrada perfecta que te preparará para la estrella de la noche: “La Picanha”.`,
             ]
           },
           {
-            tipo: 'texto',
+            tipo: 'imagen',
             fragmento:['brazil-6'],
           },
           {
@@ -664,7 +664,7 @@ var api = {
             ],
           },
           {
-            tipo: 'texto',
+            tipo: 'imagen',
             fragmento:['brazil-7'],
           },
           {
@@ -949,7 +949,7 @@ var api = {
               resumen: [
                 {
                   tipo: 'texto',
-                  fragmento:'Creación de hasta 20 guiones por semana para la marca Knowmore en Español en ', 
+                  fragmento:'Creación de hasta 20 guiones por semana para la marca Knowmore en Español en ',
                 },
                 {
                   tipo: 'link',
@@ -967,9 +967,9 @@ var api = {
                 },
                 {
                   tipo: 'texto',
-                  fragmento: '. Redacción de contenido literario, elección de clips y música para el material audiovisual. Guiones traducidos al inglés y portugués.', 
+                  fragmento: '. Redacción de contenido literario, elección de clips y música para el material audiovisual. Guiones traducidos al inglés y portugués.',
                 }
-                            
+
               ],
               descripcion: [
                 {
