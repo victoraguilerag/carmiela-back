@@ -1,4 +1,3 @@
-var api = require('./api')
 require('../db/setup')
 var Articulos = require('../models/Articulos')
 var Experiencia = require('../models/Experiencia')
