@@ -17,14 +17,16 @@ exports.seed = (knex, Promise) => {
 
     var count = 0
     const promises = api.experiencia.profesional.map((empresa, i) => {
+      console.log(empresa.social.nombre, empresa.nombre);
+      console.log(count, i);
       return knex('fragmento-social').insert([{
         id: count++,
         nombre: empresa.social.nombre,
         url: empresa.social.url,
         empresa_id: i
       }])
-    }) 
-    
+    })
+
     return Promise.all(promises)
   })
 }

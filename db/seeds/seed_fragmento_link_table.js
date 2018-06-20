@@ -15,6 +15,8 @@ exports.seed = (knex, Promise) => {
     var count = 0
     api.experiencia.profesional.map((empresa, i) => {
       const promises = empresa.link.map((link, index) => {
+        console.log(link.nombre, empresa.nombre);
+        console.log(count, i);
         return knex('fragmento-link').insert([{
           id: count++,
           nombre: link.nombre,

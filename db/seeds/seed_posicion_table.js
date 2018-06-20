@@ -14,7 +14,6 @@ exports.seed = (knex, Promise) => {
     var count = 0
     api.experiencia.profesional.map((empresa, i) => {
       const promises = empresa.posiciones.map((posicion, index) => {
-        console.log(count, i)
         return knex('posicion').insert([{
           id: count++,
           cargo: posicion.cargo,

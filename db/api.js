@@ -1,4 +1,24 @@
 var api = {
+    personal: {
+      nombre: 'Carmen Daniela',
+      apellido: 'Véliz',
+      correo: 'cdanielaveliz@gmail.com',
+      telefono: '+58 4249243017',
+      redes: [
+        {
+          nombre: 'Twitter',
+          url: 'https://twitter.com/Carmiela_'
+        },
+        {
+          nombre: 'Instagram',
+          url: 'https://www.instagram.com/carmiela_/'
+        },
+        {
+          nombre: 'Facebook',
+          url: 'https://www.facebook.com/DanielaVelizprofile'
+        }
+      ]
+    },
     articulos: [
       {
         id: 0,
