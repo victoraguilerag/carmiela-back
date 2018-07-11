@@ -11,6 +11,10 @@ var rootTypes = `
     articulo(id: Int): Articulo
   	experiencia: [Experiencia]
   	fragmentos: [Fragmento]
+    fragmento(id: Int): Fragmento
+  }
+  type Mutation {
+    fragmentoEdit(fragmentoId: Int!, fragmento: FragmentoEditable): Fragmento
   }
 `
 

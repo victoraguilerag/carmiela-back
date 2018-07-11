@@ -17,6 +17,9 @@ var Articulo = `
     valor: String,
     fragmento_id: Int
   }
+  input FragmentoEditable {
+    valor: String
+  }
 `
 
 module.exports = Articulo

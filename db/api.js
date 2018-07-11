@@ -25,35 +25,18 @@ var api = {
         portada: 'chinos',
         titulo: 'LAS SOBRAS DE CHINA: MUJERES QUE NO SE HAN CASADO ANTES DE LOS 30',
         fecha: '17 de abril, 2018',
-        previa: `En China, si eres una mujer soltera antes de llegar a tus 30,
-                 eres oficialmente un fracaso. O al menos, una persona menos valiosa,
-                 un mal innecesario que sólo trae vergüenza a la familia. ¿Suena demasiado radical?
-                 Pues en esta sociedad asiática es normal y el mismo Ministro de Educación de ese país le dio`,
+        previa: "En China, si eres una mujer soltera antes de llegar a tus 30, eres oficialmente un fracaso. O al menos, una persona menos valiosa, un mal innecesario que sólo trae vergüenza a la familia. ¿Suena demasiado radical? Pues en esta sociedad asiática es normal y el mismo Ministro de Educación de ese país le dio",
         cuerpo: [
           {
             tipo: 'texto',
             fragmento:  [
-                `En China, si eres una mujer soltera antes de llegar a tus 30,
-                eres oficialmente un fracaso. O al menos, una persona menos valiosa,
-                un mal innecesario que sólo trae vergüenza a la familia.
-                ¿Suena demasiado radical? Pues en esta sociedad asiática es normal y el mismo Ministro de
-                 Educación de ese país le dio un nombre en 2007:
-                 “Sheng nu”, que en inglés se traduce a “Leftover women”.`,
+                "En China, si eres una mujer soltera antes de llegar a tus 30, eres oficialmente un fracaso. O al menos, una persona menos valiosa, un mal innecesario que sólo trae vergüenza a la familia. ¿Suena demasiado radical? Pues en esta sociedad asiática es normal y el mismo Ministro de Educación de ese país le dio un nombre en 2007: “Sheng nu”, que en inglés se traduce a “Leftover women”.",
 
-                `Es decir, mujeres sobrantes… Mujeres que son sobras.`,
+                "Es decir, mujeres sobrantes… Mujeres que son sobras.",
 
-                `La presión comienza a partir de los 27,
-                en otras familias más estrictas, un poco antes.
-                Y esta carrera para iniciar una familia no tiene
-                nada que ver con amor o ideas románticas, es más un
-                arreglo que se relaciona con el estatus social y económico.`,
+                "La presión comienza a partir de los 27, en otras familias más estrictas, un poco antes. Y esta carrera para iniciar una familia no tiene nada que ver con amor o ideas románticas, es más un arreglo que se relaciona con el estatus social y económico.",
 
-                `Pero en una cultura que se globaliza rápidamente
-                y una economía que pronto se coronará como la primera del mundo,
-                un gran porcentaje de mujeres no se conformarán con tener un esposo
-                 y una casita para limpiar. Más y más chicas deciden perseguir
-                 su propio estilo de vida, aunque el gobierno y sus familias las
-                 presionen para elegir un destino ya escrito.`
+                "Pero en una cultura que se globaliza rápidamente y una economía que pronto se coronará como la primera del mundo, un gran porcentaje de mujeres no se conformarán con tener un esposo y una casita para limpiar. Más y más chicas deciden perseguir su propio estilo de vida, aunque el gobierno y sus familias las presionen para elegir un destino ya escrito."
               ]
           },
           {
@@ -63,16 +46,9 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `Desde que se instauró la ley del hijo único en China en 1979,
-              se produjo un desbalance entre géneros, cuyas consecuencias se
-              comenzaron a notar mucho después. Para 2020, se estima que habrá
-              24 millones de hombres más que mujeres en China, arriesgando el crecimiento constante.`,
+              "Desde que se instauró la ley del hijo único en China en 1979,se produjo un desbalance entre géneros, cuyas consecuencias se comenzaron a notar mucho después. Para 2020, se estima que habrá 24 millones de hombres más que mujeres en China, arriesgando el crecimiento constante.",
 
-              `Si bien esta política favoreció a los chinos en algunos aspectos,
-              provocó el mayor índice de abortos selectivos, pues las familias preferían engendrar niños.
-              Ya sea por una cuestión cultural o porque era un lazo de herencia directa. La cuestión es que,
-              según cifras del gobierno, se previnieron 400 millones
-              de embarazos. La mitad –o un poco más- siendo las mujeres que hacen falta hoy.`
+              "Si bien esta política favoreció a los chinos en algunos aspectos, provocó el mayor índice de abortos selectivos, pues las familias preferían engendrar niños. Ya sea por una cuestión cultural o porque era un lazo de herencia directa. La cuestión es que, según cifras del gobierno, se previnieron 400 millones de embarazos. La mitad –o un poco más- siendo las mujeres que hacen falta hoy."
             ]
           },
           {
@@ -82,25 +58,13 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-                `En un esfuerzo para levantar la proporción de nacimientos y procurar una sociedad estable,
-                el Estado y la sociedad ha impulsado una propaganda a través de medios de comunicación para presionar
-                a las mujeres a casarse y tener hijos. Ha creado una cultura que orbita alrededor de esto.`,
+                "En un esfuerzo para levantar la proporción de nacimientos y procurar una sociedad estable, el Estado y la sociedad ha impulsado una propaganda a través de medios de comunicación para presionar a las mujeres a casarse y tener hijos. Ha creado una cultura que orbita alrededor de esto.",
 
-                `Y no es que quieren cualquier tipo de hijos, quieren hijos de estas mujeres estudiadas,
-                mejor preparadas, para crear una nueva fuerza de trabajo que se equipare con el brillante
-                futuro de la industria china. O así opina Leta Hong Fincher, autora del libro “Leftover Women:
-                The Resurgence of Gender Inequality in China”.`,
+                "Y no es que quieren cualquier tipo de hijos, quieren hijos de estas mujeres estudiadas, mejor preparadas, para crear una nueva fuerza de trabajo que se equipare con el brillante futuro de la industria china. O así opina Leta Hong Fincher, autora del libro “Leftover Women: The Resurgence of Gender Inequality in China”.",
 
-                `“El gobierno está enfocado en casar mujeres educadas, de ambientes urbanos.
-                No quiere que mujeres de ambientes rurales y sin educación tengan más bebés…
-                Esto va de la mano con la calidad de la población, quieren que estas mujeres construyan
-                la nueva generación de trabajadores capacitados”.`,
+                '“El gobierno está enfocado en casar mujeres educadas, de ambientes urbanos. No quiere que mujeres de ambientes rurales y sin educación tengan más bebés… Esto va de la mano con la calidad de la población, quieren que estas mujeres construyan la nueva generación de trabajadores capacitados”.',
 
-                `Según su investigación, es por eso que esta paradoja entre tradición y modernidad se intersecciona
-                 en grandes ciudades como Beijing o Shangai. Quieren imponer un modelo moral  o familiar que
-                 ya no concuerda con las necesidades de estas mujeres que han estado expuestas a un mundo más
-                 amplio que sus antecesoras…
-                 Sin embargo, sus padres, esa generación más tradicional y rígida, sí sienten la presión.`
+                "Según su investigación, es por eso que esta paradoja entre tradición y modernidad se intersecciona en grandes ciudades como Beijing o Shangai. Quieren imponer un modelo moral  o familiar que ya no concuerda con las necesidades de estas mujeres que han estado expuestas a un mundo más amplio que sus antecesoras… Sin embargo, sus padres, esa generación más tradicional y rígida, sí sienten la presión."
               ]
           },
           {
@@ -110,14 +74,9 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `No necesitas ser un experto para comprender la dinámica en una familia china.
-              Desde afuera se ve como un sistema muy rígido, donde el respeto y el honor son
-              divisas importantes para una vida feliz. Al contrario de los latinos, su emocionalidad
-              es bastante reservada y cada acción es pensada al frío, así se relacionan con todo.
-              Por eso, hasta 1949 todavía usaban casamenteras.`,
+              "No necesitas ser un experto para comprender la dinámica en una familia china. Desde afuera se ve como un sistema muy rígido, donde el respeto y el honor son divisas importantes para una vida feliz. Al contrario de los latinos, su emocionalidad es bastante reservada y cada acción es pensada al frío, así se relacionan con todo, Por eso, hasta 1949 todavía usaban casamenteras.",
 
-              `Si quieres saber más ve este video producido por SK-II,
-              una marca asiática que está haciendo una campaña para concientizar sobre el tema:`
+              "Si quieres saber más ve este video producido por SK-II, una marca asiática que está haciendo una campaña para concientizar sobre el tema:"
             ]
           },
           {
@@ -131,23 +90,13 @@ var api = {
         portada: 'hell',
         titulo: 'LA PÁLIDA: POR QUÉ PUEDES FUMAR MARIHUANA ANTES Y NO DESPUÉS DE BEBER',
         fecha: '17 de abril, 2018',
-        previa: `Siempre aparece ese generoso amigo que después de que se acaba la botella,  invita un porro en la fiesta.
-                 Y uno ahí, todo amable y respetuoso, termina aceptándolo. Ahí pueden pasar una de dos cosas:
-                 Todo puede salir bien, disfrutamos de la música, bailamos, damos vueltas en el patio y terminamos
-                 admirando las estrellas entre`,
+        previa: "Siempre aparece ese generoso amigo que después de que se acaba la botella,  invita un porro en la fiesta. Y uno ahí, todo amable y respetuoso, termina aceptándolo. Ahí pueden pasar una de dos cosas: Todo puede salir bien, disfrutamos de la música, bailamos, damos vueltas en el patio y terminamos admirando las estrellas entre",
         cuerpo: [
           {
             tipo: 'texto',
             fragmento: [
-              `Siempre aparece ese generoso amigo que después de que se acaba la botella,
-              invita un porro en la fiesta. Y uno ahí, todo amable y respetuoso, termina aceptándolo.
-              Ahí pueden pasar una de dos cosas: Todo puede salir bien, disfrutamos de la música, bailamos,
-               damos vueltas en el patio y terminamos admirando las estrellas entre tragos de vodka con 7up y cigarrillos…
-               O todo se va a la mierda y nos desmayamos.`,
-              `Y ese cambio de cero a cien, puede pasar en menos de diez segundos.
-               En algunos países de Latinoamérica, a este horrible efecto, le denominan “pálida” o “blancazo”.
-               ¿Por qué? Pues, literalmente te pones pálido y en cierto modo –algo espiritual- sientes que eres
-                un fantasma de ti mismo.`
+              'Siempre aparece ese generoso amigo que después de que se acaba la botella, invita un porro en la fiesta. Y uno ahí, todo amable y respetuoso, termina aceptándolo. Ahí pueden pasar una de dos cosas: Todo puede salir bien, disfrutamos de la música, bailamos, damos vueltas en el patio y terminamos admirando las estrellas entre tragos de vodka con 7up y cigarrillos… O todo se va a la mierda y nos desmayamos.',
+              'Y ese cambio de cero a cien, puede pasar en menos de diez segundos. En algunos países de Latinoamérica, a este horrible efecto, le denominan “pálida” o “blancazo”. ¿Por qué? Pues, literalmente te pones pálido y en cierto modo –algo espiritual- sientes que eres un fantasma de ti mismo.'
             ]
           },
           {
@@ -161,24 +110,15 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `Todas las drogas estimulan los neurotransmisores del cerebro, -incluido el alcohol- los excitan o los inhiben.
-               La marihuana los inhibe, activando el sistema parasimpático. ¿Se te olvidó la clase de biología?
-               Pues se trata de una parte del  sistema nervioso que no controlamos y que regula la energía corporal.`,
+              'Todas las drogas estimulan los neurotransmisores del cerebro, -incluido el alcohol- los excitan o los inhiben. La marihuana los inhibe, activando el sistema parasimpático. ¿Se te olvidó la clase de biología? Pues se trata de una parte del  sistema nervioso que no controlamos y que regula la energía corporal.',
 
-              `Entre otras cosas, se dilatan los vasos sanguíneos de los ojos, producimos menos saliva y nos da sed,
-               se relajan los músculos, se activan las papilas gustativas y nuestras neuronas comienzan a procesar
-               la información de manera diferente, de allí a que se nos ocurran preguntas como “¿Qué sueñan los ciegos?” en medio de la nota.`,
+              'Entre otras cosas, se dilatan los vasos sanguíneos de los ojos, producimos menos saliva y nos da sed, se relajan los músculos, se activan las papilas gustativas y nuestras neuronas comienzan a procesar la información de manera diferente, de allí a que se nos ocurran preguntas como “¿Qué sueñan los ciegos?” en medio de la nota.',
 
-              `Cuando fumamos más de lo que podemos tolerar o combinamos diferentes sustancias, el sistema parasimpático entra en alerta
-              y decide –tal como un suiche-, desactivarse para regular la energía de los órganos y preservar el cuerpo.
-               Ahí, en ese momento, nos da la pálida.`,
+              'Cuando fumamos más de lo que podemos tolerar o combinamos diferentes sustancias, el sistema parasimpático entra en alerta y decide –tal como un suiche-, desactivarse para regular la energía de los órganos y preservar el cuerpo. Ahí, en ese momento, nos da la pálida.',
 
-              `Estar en pálida se siente como si tu alma se saliera del cuerpo. Se baja la tensión,
-               comienzas a sudar frío y a temblar, mientras que tu cabeza da vueltas, de pronto sintiéndote a punto de vomitar,
-                al borde de un colapso completo en el que crees –en serio crees y juras- que te vas a morir.`,
+              'Estar en pálida se siente como si tu alma se saliera del cuerpo. Se baja la tensión, comienzas a sudar frío y a temblar, mientras que tu cabeza da vueltas, de pronto sintiéndote a punto de vomitar, al borde de un colapso completo en el que crees –en serio crees y juras- que te vas a morir.',
 
-              `Algunos también sienten ataques de pánico que se traducen en palpitaciones en el pecho y dificultades para respirar,
-               asociados al estado de conmoción psicológica. ¿Te ha pasado?`
+              'Algunos también sienten ataques de pánico que se traducen en palpitaciones en el pecho y dificultades para respirar, asociados al estado de conmoción psicológica. ¿Te ha pasado?'
             ]
           },
           {
@@ -188,9 +128,7 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `Tener una pálida puede pasarle a cualquiera y en cualquier momento. Depende de una cantidad de factores
-              importantes como el descanso, la alimentación, el ambiente y el estado mental en el que nos encontremos
-               al momento de fumar y beber.`,
+              'Tener una pálida puede pasarle a cualquiera y en cualquier momento. Depende de una cantidad de factores importantes como el descanso, la alimentación, el ambiente y el estado mental en el que nos encontremos al momento de fumar y beber.',
             ]
           },
           {
@@ -200,22 +138,15 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `Ahora, ¿por qué nos da después y no antes de beber?`,
+              'Ahora, ¿por qué nos da después y no antes de beber?',
 
-              `Imaginemos el efecto del alcohol en nuestro cuerpo como una línea que asciende
-              lentamente. De esa cerveza que tomaste a las 7:00pm al llegar, sentirás el efecto un tiempo después,
-              dependiendo de qué tan rápido sea tu metabolismo. Por eso es que nos sentimos más pedos al final de la noche,
-              porque el efecto del alcohol es retardado.`,
+              'Imaginemos el efecto del alcohol en nuestro cuerpo como una línea que asciende lentamente. De esa cerveza que tomaste a las 7:00pm al llegar, sentirás el efecto un tiempo después, dependiendo de qué tan rápido sea tu metabolismo. Por eso es que nos sentimos más pedos al final de la noche, porque el efecto del alcohol es retardado.',
 
-              `Al contrario de la marihuana, cuya sensación es intensa y rápida. Digamos que, en promedio y dependiendo de la
-               frecuencia de uso, puedes estar high durante una hora y ya, se acaba.`,
+              'Al contrario de la marihuana, cuya sensación es intensa y rápida. Digamos que, en promedio y dependiendo de la frecuencia de uso, puedes estar high durante una hora y ya, se acaba.',
 
-              `Pues bien, si te fumas un porro antes de empezar a beber, tu cuerpo podrá manejar la reacción normalmente.
-              Si lo haces después de diez cervezas, estará luchando por mantenerse estable mientras que dos tipos de
-              intoxicaciones distintas se mezclan en una intersección que ahora llamaremos “La hora cero”.`,
+              'Pues bien, si te fumas un porro antes de empezar a beber, tu cuerpo podrá manejar la reacción normalmente. Si lo haces después de diez cervezas, estará luchando por mantenerse estable mientras que dos tipos de intoxicaciones distintas se mezclan en una intersección que ahora llamaremos “La hora cero”.',
 
-              `La hora cero es ese punto en el que tu cuerpo dice “a la mierda, esto es demasiado” y decide apagarse
-              para protegerte de ti mismo. Y le sigue lo que anteriormente definimos como la pálida.`,
+              'La hora cero es ese punto en el que tu cuerpo dice “a la mierda, esto es demasiado” y decide apagarse para protegerte de ti mismo. Y le sigue lo que anteriormente definimos como la pálida.',
             ]
           },
           {
@@ -225,18 +156,13 @@ var api = {
           {
             tipo: 'texto',
             fragmento:[
-              `La hora cero es diferente para cada uno porque depende de la tolerancia.`,
+              'La hora cero es diferente para cada uno porque depende de la tolerancia.',
 
-              `Si estamos acostumbrados a bebernos diez cervezas y cinco porros durante la noche de cada viernes,
-              nuestro cuerpo se irá acomodando a ese límite, trabajando con el mismo protocolo. Por eso, si lo hacemos muy seguido,
-              sentiremos que la misma cantidad de marihuana y alcohol no nos pega igual. Expandimos esa tolerancia.`,
+              'Si estamos acostumbrados a bebernos diez cervezas y cinco porros durante la noche de cada viernes, nuestro cuerpo se irá acomodando a ese límite, trabajando con el mismo protocolo. Por eso, si lo hacemos muy seguido, sentiremos que la misma cantidad de marihuana y alcohol no nos pega igual. Expandimos esa tolerancia.',
 
-              `Pero, si en vez de diez cervezas nos tomamos 20 y en vez de cinco porros son diez, nos sometemos
-               a una intoxicación que va más allá de lo que podemos soportar. He ahí la simple razón de por qué no podemos
-               fumar después de beber: Porque, probablemente, no podremos soportarlo.`,
+              'Pero, si en vez de diez cervezas nos tomamos 20 y en vez de cinco porros son diez, nos sometemos a una intoxicación que va más allá de lo que podemos soportar. He ahí la simple razón de por qué no podemos fumar después de beber: Porque, probablemente, no podremos soportarlo.',
 
-              `Esa tolerancia que tenemos es relativamente estable durante años. Pero puede ser influenciada por
-              distintos factores, desde una mala noche de sueño  y un fuerte tratamiento antibiótico hasta una situación emocional.`,
+              'Esa tolerancia que tenemos es relativamente estable durante años. Pero puede ser influenciada por distintos factores, desde una mala noche de sueño  y un fuerte tratamiento antibiótico hasta una situación emocional.',
             ]
           },
           {
@@ -246,17 +172,11 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `Es cierto que esa tolerancia o “aguante” se puede entrenar a través del tiempo.
-              Es normal que si una persona abstemia mezcla una cerveza y un porro, entre en pálida.
-              En el otro extremo, están los que se pueden beber el bar, se meten hasta las pastillas de la abuela y amanecen como bebés.
-              Probablemente los segundos han bebido durante gran parte de su vida.`,
+              'Es cierto que esa tolerancia o “aguante” se puede entrenar a través del tiempo. Es normal que si una persona abstemia mezcla una cerveza y un porro, entre en pálida. En el otro extremo, están los que se pueden beber el bar, se meten hasta las pastillas de la abuela y amanecen como bebés. Probablemente los segundos han bebido durante gran parte de su vida.',
 
-              `Algunos dicen que depende de la genética o el estilo de vida y probablemente tenga que ver  un poco con las dos cosas.
-              Pero no es un experimento que quieras hacer, porque una pálida, en todo su horroroso esplendor, te puede quitar las ganas
-              de beber para toda la vida.`,
+              'Algunos dicen que depende de la genética o el estilo de vida y probablemente tenga que ver  un poco con las dos cosas. Pero no es un experimento que quieras hacer, porque una pálida, en todo su horroroso esplendor, te puede quitar las ganas de beber para toda la vida.',
 
-              `Así que si vas a mezclar cannabis y alcohol, es mejor que mantengas un ritmo consciente.
-              Si sabes que ese amigo generoso va a sacar el porro en un rato y quieres fumar, ¡deja de tomar!`
+              'Así que si vas a mezclar cannabis y alcohol, es mejor que mantengas un ritmo consciente. Si sabes que ese amigo generoso va a sacar el porro en un rato y quieres fumar, ¡deja de tomar!'
             ]
           },
           {
@@ -266,14 +186,11 @@ var api = {
           {
             tipo: 'texto',
             fragmento: [
-              `No se te va a cortar la embriaguez inmediatamente, pero si le darás un chance a tu cuerpo de metabolizar
-              lo que has tomado y bajar esa línea imaginaria hasta un punto en el que la marihuana no te provoque un mal viaje.`,
+              'No se te va a cortar la embriaguez inmediatamente, pero si le darás un chance a tu cuerpo de metabolizar lo que has tomado y bajar esa línea imaginaria hasta un punto en el que la marihuana no te provoque un mal viaje.',
 
-              `La mejor opción para los que nos gusta mezclar estos dos mundos, es mantener el control y estudiar nuestros patrones,
-              conocernos. Tomar en consideración el estado de nuestro cuerpo y comprender que no somos máquinas, que nuestro tejido
-              orgánico es sensible hasta a la luna, por lo que tenemos que tener moderación.`,
+              'La mejor opción para los que nos gusta mezclar estos dos mundos, es mantener el control y estudiar nuestros patrones, conocernos. Tomar en consideración el estado de nuestro cuerpo y comprender que no somos máquinas, que nuestro tejido orgánico es sensible hasta a la luna, por lo que tenemos que tener moderación.',
 
-              `Así que ya sabes, si vas a hacer algo malo, hazlo bien.`
+              'Así que ya sabes, si vas a hacer algo malo, hazlo bien.'
             ]
           },
         ],

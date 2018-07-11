@@ -10,7 +10,13 @@ var resolvers = {
 		articulos: () => Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]'),
 		articulo: (rootValue, args) => Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]').findById(args.id),
 		experiencia: () => Experiencia.query().eager('[educacion, profesional, profesional.[link, social, posiciones, posiciones.resumen], skills.[principales, secundarios]]'),
-		fragmentos: () => Fragmento.query()
+		fragmentos: () => Fragmento.query(),
+		fragmento: (rootValue, args) => Fragmento.query().findById(args.id)
+	},
+	Mutation: {
+		fragmentoEdit: (_, args) => {
+			return Fragmento.query().patchAndFetchById(args.fragmentoId, args.fragmento)
+		}
 	}
 }
 
