@@ -16,6 +16,19 @@ var resolvers = {
 	Mutation: {
 		fragmentoEdit: (_, args) => {
 			return Fragmento.query().patchAndFetchById(args.fragmentoId, args.fragmento)
+		},
+		articuloEdit: (_, args) => {
+			console.log(args);
+			return Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]').patchAndFetchById(args.articuloId, args.articulo).then(async (articulo) => {
+				if (args.fragmentos) {
+					for(let i=0;i<args.fragmentos.id;i++){
+						let fragmento = await Fragmento.query.patchAndFetchById(args.fragmentos[i].id,args.fragmentos[i])
+					}
+					return articulo
+				} else {
+					return articulo
+				}
+			})
 		}
 	}
 }

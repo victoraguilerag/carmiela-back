@@ -15,6 +15,7 @@ var rootTypes = `
   }
   type Mutation {
     fragmentoEdit(fragmentoId: Int!, fragmento: FragmentoEditable): Fragmento
+    articuloEdit(articuloId: Int!, articulo: ArticuloEditable, fragmentos: [FragmentoEditable]):Articulo
   }
 `
 

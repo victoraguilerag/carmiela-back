@@ -13,12 +13,17 @@ var Articulo = `
   	fragmento: [Fragmento]
   }
   type Fragmento{
-    id: Int,
+    id: Int!,
     valor: String,
     fragmento_id: Int
   }
   input FragmentoEditable {
+    id: Int,
     valor: String
+  }
+  input ArticuloEditable {
+    titulo: String,
+    fecha: String,
   }
 `
 
