@@ -25,6 +25,10 @@ var Articulo = `
     titulo: String,
     fecha: String,
   }
+  input CuerpoEditable {
+    id: Int!,
+    fragmento: [FragmentoEditable]
+  }
 `
 
 module.exports = Articulo

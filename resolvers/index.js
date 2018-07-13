@@ -18,15 +18,10 @@ var resolvers = {
 			return Fragmento.query().patchAndFetchById(args.fragmentoId, args.fragmento)
 		},
 		articuloEdit: (_, args) => {
-			return Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]').findById(args.articuloId).then(articulo => {
-				return Articulos.query().upsertGraph({
-					id: args.articuloId,
-					titulo: args.articulo.titulo,
-					cuerpo: [{
-						id: articulo.cuerpo[0].id,
-						fragmento: args.fragmentos
-					}]
-				})
+			return Articulos.query().eager('[cuerpo, cuerpo.[fragmento]]').findById(args.articuloId).upsertGraph({
+				id: args.articuloId,
+				titulo: args.articulo.titulo,
+				cuerpo: args.fragmentos
 			})
 		}
 	}
