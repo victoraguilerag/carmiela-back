@@ -16,14 +16,6 @@ class Cuerpo extends Model {
 					to: 'articulos.id'
 				}
 			},
-			fragmento: {
-				relation: Model.HasManyRelation,
-				modelClass: path.join(__dirname, '/Fragmento'),
-				join: {
-					from: 'fragmento-articulo.id',
-					to: 'fragmento.fragmento_id'
-				}
-			}
 		}
 	}
 }

@@ -10,12 +10,9 @@ var rootTypes = `
   	articulos: [Articulo]
     articulo(id: Int): Articulo
   	experiencia: [Experiencia]
-  	fragmentos: [Fragmento]
-    fragmento(id: Int): Fragmento
   }
   type Mutation {
-    fragmentoEdit(fragmentoId: Int!, fragmento: FragmentoEditable): Fragmento
-    articuloEdit(articuloId: Int!, articulo: ArticuloEditable, fragmentos: [CuerpoEditable]):Articulo
+    articuloEdit(articuloId: Int!, articulo: ArticuloEditable):Articulo
   }
 `
 

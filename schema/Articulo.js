@@ -10,24 +10,17 @@ var Articulo = `
   type FragmentoArticulo {
     id: Int,
   	tipo: String,
-  	fragmento: [Fragmento]
-  }
-  type Fragmento{
-    id: Int!,
     valor: String,
-    fragmento_id: Int
-  }
-  input FragmentoEditable {
-    id: Int,
-    valor: String
   }
   input ArticuloEditable {
     titulo: String,
     fecha: String,
+    cuerpo: [CuerpoEditable]
   }
   input CuerpoEditable {
     id: Int!,
-    fragmento: [FragmentoEditable]
+    tipo: String,
+    valor: String,
   }
 `
 
