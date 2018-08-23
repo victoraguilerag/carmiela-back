@@ -17,11 +17,13 @@ exports.seed = (knex, Promise) => {
   return knex('fragmento-articulo').del().then(() => {
     let count = 0
     api.articulos.map((articulo, index) => {
+      let order = 0
       articulo.cuerpo.map((fragmento, i) => {
         const promises = fragmento.fragmento.map((pieza, i) => {
           return knex('fragmento-articulo').insert([{
             id: count++,
             tipo: fragmento.tipo,
+            orden: order++,
             valor: pieza,
             cuerpo_id: index
           }])

@@ -9,11 +9,13 @@ var Articulo = `
   }
   type FragmentoArticulo {
     id: Int,
+    orden: Int,
   	tipo: String,
     valor: String,
   }
   input ArticuloEditable {
     titulo: String,
+    portada: String,
     fecha: String,
     cuerpo: [CuerpoEditable]
   }

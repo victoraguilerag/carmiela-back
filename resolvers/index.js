@@ -12,8 +12,10 @@ var resolvers = {
 	},
 	Mutation: {
 		articuloEdit: (_, args) => {
+			console.log(args);
 			return Articulos.query().eager('[cuerpo]').findById(args.articuloId).upsertGraph({
 				id: args.articuloId,
+				portada: args.articulo.portada,
 				titulo: args.articulo.titulo,
 				cuerpo: args.articulo.cuerpo
 			})
