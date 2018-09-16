@@ -12,12 +12,31 @@ var resolvers = {
 	},
 	Mutation: {
 		articuloEdit: (_, args) => {
-			console.log(args);
+			console.log('editando articulo ' + args.articulo.titulo);
 			return Articulos.query().eager('[cuerpo]').findById(args.articuloId).upsertGraph({
 				id: args.articuloId,
 				portada: args.articulo.portada,
 				titulo: args.articulo.titulo,
 				cuerpo: args.articulo.cuerpo
+			})
+		},
+		articuloAdd: (_, args) => {
+			console.log('agregando articulo ' + args.articulo.titulo);
+			const articulo = Articulos.query().insertGraph({
+				titulo: args.articulo.titulo,
+				portada: args.articulo.portada,
+				fecha: args.articulo.fecha
+			})
+			console.log('resultado ' + articulo)
+			return articulo
+		},
+		articuloRemove: (_, args) => {
+			console.log('eliminando articulo ' + args.articuloId)
+			return Articulos.query().findById(args.articuloId).then((articulo) => {
+				return Articulos.query().deleteById(args.articuloId).then((deleteRows) => {
+					if (deleteRows > 0) return articulo
+					throw new Error(`El articulo no pudo ser eliminado`)
+				})
 			})
 		}
 	}

@@ -13,6 +13,8 @@ var rootTypes = `
   }
   type Mutation {
     articuloEdit(articuloId: Int!, articulo: ArticuloEditable):Articulo
+    articuloAdd(articulo: ArticuloEditable):Articulo
+    articuloRemove(articuloId:  Int!):Articulo
   }
 `
 
